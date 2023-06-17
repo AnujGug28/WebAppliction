@@ -1,0 +1,8 @@
+<div id="profile" [ngClass]="{'active': show , 'idle': !show}">
+    <div id="profile-content">
+        <input #nameInput placeholder="Name">
+        <textarea #descriptionInput placeholder="Description"></textarea>
+        <button (ckick)="onContinueClick(nameInput, descriptionInput)" color="warn"></button>
+    </div>
+
+</div>
